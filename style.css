@@ -39,8 +39,24 @@ body {
 .menu-list {
   display: flex;
   list-style: none;
+  background-image: linear-gradient(135deg, rgb(48, 210, 72) 0%, rgb(33, 138, 174) 69%, rgb(40, 49, 40) 89%);
+  margin: 10px;
+  color: rgb(244, 221, 221);
+  border-radius: 35px;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 20px;
 }
-
+.menu-list ,a{
+  border-radius: 35px;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 25px;
+  color: aliceblue;
+}
+a:hover{
+ color: #0c0c0c;
+}
 .menu-list-item {
   margin-right: 30px;
 }
@@ -64,6 +80,7 @@ body {
   height: 45px;
   border-radius: 50%;
   object-fit: cover;
+  overflow: auto;
 }
 
 .toggle {
@@ -92,7 +109,7 @@ body {
   transition: 1s ease all;
 }
 
-.sidebar {
+/* .sidebar {
   width: 50px;
   height: 100%;
   background-color: black;
@@ -102,7 +119,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
-}
+} */
 
 .left-menu-icon {
   color: white;
@@ -116,9 +133,9 @@ body {
   color: white;
 }
 
-.content-container {
+/* .content-container {
   margin-left: 50px;
-}
+} */
 
 .featured-content {
   height: 50vh;
@@ -185,6 +202,7 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 20px;
+  position: relative;
 }
 
 .movie-list-item-title {
